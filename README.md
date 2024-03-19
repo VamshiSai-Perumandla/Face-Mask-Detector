@@ -1,4 +1,4 @@
-<H>Face Mask Detection System</H>
+<h1>Face Mask Detection System</h1>
 
 ##Overview
 
