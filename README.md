@@ -32,10 +32,10 @@ The model is trained on a diverse dataset comprising thousands of images categor
 
 <h2>How It Works</h2>
 
-<h5>Face Detection:</h5> 
+<h4>Face Detection:</h4> 
 Upon starting, the application uses OpenCV to capture live video feed and detect faces in real-time.
-<h5>Mask Detection:</h5>
+<h4>Mask Detection:</h4>
 For each detected face, the TensorFlow and Keras powered model predicts the presence of a mask, providing a probability score for accuracy.
-<h5>Visual Feedback:</h5>
+<h4>Visual Feedback:</h4>
 Depending on the prediction, the application overlays a green rectangle for faces with masks and a red rectangle for those without masks or improperly worn masks.
 
