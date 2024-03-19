@@ -1,10 +1,10 @@
 #Face Mask Detection System
 
-Overview
+##Overview
 
 The Face Mask Detection System is a cutting-edge application designed to enhance public health and safety measures by utilizing advanced machine learning and computer vision technologies. By leveraging TensorFlow, Keras, and OpenCV, this system is capable of accurately detecting the presence of face masks on individuals in real-time. The project aims to contribute to the ongoing efforts in managing public health, especially in settings where wearing a face mask is mandatory or recommended.
 
-Features
+##Features
 
 Real-Time Face Mask Detection: Utilizes a trained machine learning model to detect face masks on individuals in real-time with high accuracy.
 Color-Coded Feedback: Provides immediate visual feedback; a green overlay indicates a mask is properly worn, while a red overlay signals the absence of a mask or incorrect wearing.
@@ -19,29 +19,20 @@ Dataset
 
 The model is trained on a diverse dataset comprising thousands of images categorized into two classes: 'With Mask' and 'Without Mask'. This dataset ensures that the model can accurately identify the mask status under various conditions and across different face types.
 
-Getting Started
+##Getting Started
 
-Prerequisites
+###Prerequisites
 Python 3.6 or later
 TensorFlow 2.x
 Keras
 OpenCV
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourgithubusername/facemask-detection.git
-Install the required dependencies:
-Copy code
-pip install -r requirements.txt
-Usage
-Run the detection script:
-Copy code
-python detect_mask.py
-The application will activate the webcam. Face the camera for real-time mask detection.
-How It Works
 
-Face Detection: Upon starting, the application uses OpenCV to capture live video feed and detect faces in real-time.
-Mask Detection: For each detected face, the TensorFlow and Keras powered model predicts the presence of a mask, providing a probability score for accuracy.
-Visual Feedback: Depending on the prediction, the application overlays a green rectangle for faces with masks and a red rectangle for those without masks or improperly worn masks.
+###How It Works
+
+####Face Detection: 
+Upon starting, the application uses OpenCV to capture live video feed and detect faces in real-time.
+####Mask Detection: 
+For each detected face, the TensorFlow and Keras powered model predicts the presence of a mask, providing a probability score for accuracy.
+####Visual Feedback: 
+Depending on the prediction, the application overlays a green rectangle for faces with masks and a red rectangle for those without masks or improperly worn masks.
 
