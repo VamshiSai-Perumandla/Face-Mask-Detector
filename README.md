@@ -22,10 +22,13 @@ The Face Mask Detection System is a cutting-edge application designed to enhance
 The model is trained on a diverse dataset comprising thousands of images categorized into two classes: 'With Mask' and 'Without Mask'. This dataset ensures that the model can accurately identify the mask status under various conditions and across different face types.
 
 <h2>Prerequisites</h2>
-**Python 3.6 or later**
-**TensorFlow 2.x**
-**Keras**
-**OpenCV**
+
+<ol>
+  <li>Python 3.6 or later</li>
+  <li>TensorFlow 2.x</li>
+  <li>Keras</li>
+  <li>OpenCV</li>
+</ol>
 
 <h2>How It Works</h2>
 
